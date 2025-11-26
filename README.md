@@ -65,25 +65,59 @@ MODEL GRAPH:
 
 
 Program
+```
+Ac=20.4;
+fc=387.5;
+Am=10.2;
+fm=416;
+fs=50000;
+t=0:1/fs:2/fm;
+beta=3.6;
+Em=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,Em);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("Message Signal m(t)");
+Ec=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,Ec);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("Carrier Signal c(t)");
+Efm=Ac*cos(2*3.14*fc*t+beta*sin(2*3.14*fm*t));
+subplot(3,1,3);
+plot(t,Efm);
+xlabel("Time(s)");
+ylabel("Amplitude");
+title("FM Modulated Signal (USB)");
+```
 
 
 Output Waveform
+![WhatsApp Image 2025-11-12 at 18 27 42_fdabe792](https://github.com/user-attachments/assets/463bb589-c968-47d2-81a8-941be0a5ef4a)
 
 
 
 Tabulation
+![WhatsApp Image 2025-11-26 at 18 22 00_c0429e6d](https://github.com/user-attachments/assets/2807122d-0a3e-459e-a767-9cf1bfab723f)
+
 
 
 
 Calculation
+![WhatsApp Image 2025-11-26 at 18 23 08_5719d8c1](https://github.com/user-attachments/assets/5a609dac-1744-4df2-90d6-663c77faafef)
+
+![WhatsApp Image 2025-11-13 at 16 00 50_44f9b003](https://github.com/user-attachments/assets/58d6f3be-7a9b-480b-9f39-c27793f84516)
 
 
 
-Frequency Deviation Practical = 
 
-Modulation Index Practical	= 
+Frequency Deviation Practical = 300
 
-Modulation Index Theoretical	=
+Modulation Index Practical	= 0.050847
+
+Modulation Index Theoretical	=0.758
 
 
 
