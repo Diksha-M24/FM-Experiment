@@ -104,12 +104,10 @@ Tabulation
 
 
 
-
 Calculation
 ![WhatsApp Image 2025-11-26 at 18 23 08_5719d8c1](https://github.com/user-attachments/assets/5a609dac-1744-4df2-90d6-663c77faafef)
 
 ![WhatsApp Image 2025-11-13 at 16 00 50_44f9b003](https://github.com/user-attachments/assets/58d6f3be-7a9b-480b-9f39-c27793f84516)
-
 
 
 
